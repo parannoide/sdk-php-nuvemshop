@@ -12,7 +12,7 @@ Simply add the `tiendanube/php-sdk` requirement to composer.json.
 ```json
 {
     "require": {
-        "tiendanube/php-sdk": ">=1.0"
+        "ceresaconsultoria/sdk-php-nuvemshop": ">=1.0"
     }
 }
 ```
