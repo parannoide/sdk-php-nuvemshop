@@ -7,11 +7,11 @@ namespace TiendaNube;
 class Requests {
     
     public function request($url, $headers = [], $data = [], $type = \Requests::GET, $options = []){        
-        return \WpOrg\request($url, $headers, $data, $type, $options);
+        return \WpOrg\Requests\Requests::request($url, $headers, $data, $type, $options);
     }
 
     public function post($url, $headers = [], $data = [], $options = []) {
-        return \WpOrg\post($url, $headers, $data, $options);
+        return \WpOrg\Requests\Requests::post($url, $headers, $data, $options);
     }
 
 }
