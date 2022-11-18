@@ -1,5 +1,5 @@
 {
-    "name": "ceresaconsultoria/sdk-php-nuvemshop",
+    "name": "parannoide/sdk-php-nuvemshop",
     "description": "A PHP SDK for the Tienda Nube/Nuvem Shop API.",
     "license": "MIT",
     "require": {
